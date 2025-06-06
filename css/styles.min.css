@@ -16230,17 +16230,18 @@ header.header--inner {
 }
 .header-logo__img {
   display: inline-block;
-  max-height: 35px;
+  max-height: 100px;
   max-width: auto;
+  border-radius: 50%;
 }
 @media only screen and (min-width: 992px) {
   .header-logo__img {
-    max-height: 40px;
+    max-height: 100px;
   }
 }
 @media only screen and (min-width: 1367px) {
   .header-logo__img {
-    max-height: 45px;
+    max-height: 100px;
   }
 }
 .lang-select {
@@ -18675,12 +18676,13 @@ footer.footer {
   text-decoration: none;
 }
 .footer-logo__img {
-  max-height: 50px;
+  max-height: 200px;
   width: auto;
+  border-radius: 50%;
 }
 @media only screen and (min-width: 992px) {
   .footer-logo__img {
-    max-height: 60px;
+    max-height: 200px;
   }
 }
 .footer-socials {
